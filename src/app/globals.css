@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  overflow-x: hidden;
+  line-height: 1.8;
+}
+
+.pebble-mask {
+  mask-mode: alpha;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.pebble-mask-video {
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url(/Hero3.svg);
+  mask-image: url(/Hero3.svg);
+  -webkit-mask-size: 85%;
+  mask-size: 85%;
+  -webkit-mask-position-x: 100px;
+-webkit-mask-position-y: -350px;
+}
+
+.Ed-mask-img {
+  -webkit-mask-image: url(/5.svg);
+  mask-image: url(/5.svg);
+}
+
+.thorsten-mask-img {
+  -webkit-mask-image: url(/1.svg);
+  mask-image: url(/1.svg);
+}
+
+.Bethoven-mask-img {
+  -webkit-mask-image: url(/2.svg);
+  mask-image: url(/2.svg);
+}
+
+.notes-mask-img {
+  -webkit-mask-image: url(/4.svg);
+  mask-image: url(/4.svg);
+}
+
+.person-mask-img {
+  -webkit-mask-image: url(/7.svg);
+  mask-image: url(/7.svg);
+}
+
+.feedback-mask-img {
+  -webkit-mask-image: url(/4-top.svg);
+  mask-image: url(/4-top.svg);
+}
+
+.primary-button {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #e27b4b;
+}
+
+.primary-button:hover {
+  cursor: default;
+  background-color: #eaae68;
+}
+
+.lang-footer-span {
+  cursor: default;
+  color: #2ec39f;
+}
+
+.lang-footer-span:hover {
+  color: #95e5b4;
+}
+
+.sign-up-link {
+  color: #2ec39f;
+}
+
+.sign-up-link:hover {
+  color: #98eadb;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .pebble-mask-video {
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(/Hero1.svg);
+    mask-image: url(/Hero1.svg);
+    -webkit-mask-size: 90%;
+    mask-size: 90%;
+    -webkit-mask-position-x: 38vw;
+    -webkit-mask-position-y: -21vw;
+    width: 150vw;
+  }
+
+  .page-pebble{
+    display: none;
+    visibility: hidden;
+  }
+  .primary-button {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+

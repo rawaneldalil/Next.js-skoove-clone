@@ -1,0 +1,7 @@
+<svg viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="#00524F" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <circle stroke-width="2" cx="25.340297" cy="19.5" r="4.5"></circle>
+        <path d="M33,34.5 C33,30.3578644 29.6421356,27 25.5,27 C21.3578644,27 18,30.3578644 18,34.5" stroke-width="2"></path>
+        <polyline stroke-width="2" points="33 34 33 37 18 37 18 34 18 34"></polyline>
+    </g>
+</svg>
